@@ -56,6 +56,18 @@
         </p>
       </footer>
     </div>
-    <script type="module" src="./src/index.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net.npm/three@0.128/build/three.module.js"
+        }
+      }
+    </script>
+    <script type="module" src="src/index.js">
+      import * as THREE from "three";
+      import { FBXLoader } from 'https://cdn.jsdelivr.net/npm/three@0.128.0/examples/jsm/loaders/FBXLoader.js';
+      console.log('THREE', THREE);
+      console.log('FBXLoader',FBXLoader);
+    </script>
   </body>
 </html>
