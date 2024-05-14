@@ -1,4 +1,4 @@
-import axios from "/axios/dist/axios";
+let axios = require("axios");
 
 function search(event) {
   event.preventDefault();
