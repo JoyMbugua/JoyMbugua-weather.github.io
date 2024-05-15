@@ -1,4 +1,4 @@
-import axios from ",/axiosmodule.mjs";
+import axios from "./axiosmodule.mjs";
 function search(event) {
   event.preventDefault();
   let searchInputElement = document.querySelector("#search-input");
