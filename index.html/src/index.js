@@ -1,5 +1,4 @@
-import axios from "./axios/dist/browser/axios.cjs";
-//added relative specifier
+import axios, { isCancel, AxiosError } from "axios";
 function search(event) {
   event.preventDefault();
   let searchInputElement = document.querySelector("#search-input");
