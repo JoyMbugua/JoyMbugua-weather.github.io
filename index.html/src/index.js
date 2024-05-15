@@ -1,4 +1,3 @@
-import axios from "axios";
 function search(event) {
   event.preventDefault();
   let searchInputElement = document.querySelector("#search-input");
