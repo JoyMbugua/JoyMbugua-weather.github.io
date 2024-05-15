@@ -1,5 +1,5 @@
 import axios from "axios";
-
+let axios = require("axios");
 console.log(axios.isCancel("response"));
 function search(event) {
   event.preventDefault();
