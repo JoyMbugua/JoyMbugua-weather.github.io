@@ -1,6 +1,6 @@
 import axios from "axios";
-let axios = require("axios");
-console.log(axios.isCancel("response"));
+let axios = require("axios/dist/browser/axios.cjs");
+let axios = require("axios/dist/node/axios.cjs");
 function search(event) {
   event.preventDefault();
   let searchInputElement = document.querySelector("#search-input");
