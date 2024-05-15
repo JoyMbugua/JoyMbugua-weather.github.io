@@ -1,4 +1,6 @@
-import axios, { isCancel, AxiosError } from "axios";
+import axios from "axios";
+
+console.log(axios.isCancel("response"));
 function search(event) {
   event.preventDefault();
   let searchInputElement = document.querySelector("#search-input");
