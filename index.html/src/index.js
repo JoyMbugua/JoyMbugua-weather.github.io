@@ -1,5 +1,4 @@
 import axios from "axios";
-let axios = require("axios/dist/browser/axios.cjs");
 let axios = require("axios/dist/node/axios.cjs");
 function search(event) {
   event.preventDefault();
